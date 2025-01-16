@@ -7,7 +7,8 @@
 
 import SwiftUI
 
-struct DataItemView {
+struct DataItemModel: Identifiable {
+    let id = UUID()
     let text: String
     let bgColor: Color
 }
